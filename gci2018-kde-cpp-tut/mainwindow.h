@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "helloworlddialog.h"
+#include "colorchangingdialog.h"
 
 namespace Ui {
 class MainWindow;
@@ -18,10 +19,12 @@ public:
 
 public slots:
     void on_helloWorld_button_click();
+    void on_colorChange_button_click();
 
 private:
     Ui::MainWindow *ui;
     HelloWorldDialog *hDialog;
+    colorChangingDialog *cDialog;
 };
 
 #endif // MAINWINDOW_H
