@@ -11,3 +11,6 @@ I have never written C++ (I write Arduino Language, but I kinda feel like that d
 I do web development as a hobby and I'm really happy with PHPStorm/WebStorm, so I decided to use CLion.
 
 Oh! The download has finished, let's get to work!
+
+#### Update
+Sooo. According to the internet, there isn't a good way to use CLion with Qt (and I don't have enough time to do it properly), so I will use QtCreator which has been installed with the patterns-kde-devel_qt5 pattern anyway.
