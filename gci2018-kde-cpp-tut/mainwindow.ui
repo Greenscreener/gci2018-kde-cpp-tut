@@ -18,13 +18,26 @@
     <property name="geometry">
      <rect>
       <x>360</x>
-      <y>200</y>
+      <y>130</y>
       <width>87</width>
       <height>35</height>
      </rect>
     </property>
     <property name="text">
      <string>WHAT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>230</y>
+      <width>281</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Launch Color Changing Dialog</string>
     </property>
    </widget>
   </widget>

@@ -27,15 +27,18 @@ CONFIG += c++11
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    helloworlddialog.cpp
+    helloworlddialog.cpp \
+    colorchangingdialog.cpp
 
 HEADERS += \
         mainwindow.h \
-    helloworlddialog.h
+    helloworlddialog.h \
+    colorchangingdialog.h
 
 FORMS += \
         mainwindow.ui \
-    helloworlddialog.ui
+    helloworlddialog.ui \
+    colorchangingdialog.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
